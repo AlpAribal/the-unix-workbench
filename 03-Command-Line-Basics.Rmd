@@ -130,7 +130,7 @@ pwd
 ```
 
 You can change your working directory using the `cd` command. If you use the
-`cd` command without any arguments then your working directory is changed
+`cd` command without any arguments, then your working directory is changed
 to your home directory.
 
 Enter `cd` into the command line and then enter `pwd`.
@@ -146,9 +146,9 @@ to your home directory (the directory you were in to begin with). To use `cd` to
 change your working directory to a directory other than your home directory, you
 need to provide `cd` with the path to another directory as an argument. You can
 specify a path as either a path that is **relative** to your current directory,
-or you can specify the **absolute** path to a directory starting from the root
+or the **absolute** path to a directory starting from the root
 of your computer. Let's say we simply want to change the working directory to
-one of the folders that is inside our home directory. First we need to be able to
+one of the folders that are inside our home directory. First, we need to be able to
 see which folders are in our working directory. You can list the files and
 folders in a directory using the `ls` command. Let's use the `ls` command in our
 home directory to list the files and folders contained within it.
@@ -202,7 +202,7 @@ working directory. Therefore since my current working directory is `/Users/sean`
 then `cd Music` is the same as `cd ./Music`.
 
 I can `cd` to any folder as long as I know the **absolute** path to that folder.
-For example I can `cd` to `/Users/sean/Music` by entering the following into 
+For example, I can `cd` to `/Users/sean/Music` by entering the following into 
 the shell:
 
 ```{r, engine='bash', eval=FALSE}
@@ -216,7 +216,7 @@ pwd
 
 It doesn't matter what directory I'm in since I'm using an absolute path, I can
 jump straight to that directory (Remember that `~` is a shortcut for the path to
-your home folder). Of course you shouldn't expect yourself to have every
+your home folder). Of course, you shouldn't expect yourself to have every
 absolute path on your computer memorized! You can use a terminal feature called
 **tab completion** in order to speed up typing paths and other commands. Enter
 the following into your shell, and then try pressing the `Tab` key (on some
@@ -252,7 +252,7 @@ cd ~/D
 ```
 
 Since I added a "D" to the path, only folders with names that start with a "D"
-are listed. If I type `cd ~/De` into the console and then press `Tab` then the
+are listed. If I type `cd ~/De` into the console and then press `Tab`, then the
 command will autocomplete to `cd ~/Desktop/`. If I press tab again, the console
 will list all of the files and folders on my desktop.
 
