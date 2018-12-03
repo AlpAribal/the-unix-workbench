@@ -24,7 +24,7 @@ happens and you get a new prompt under the old prompt. The white rectangle
 after the prompt is just a cursor that allows you to edit what you've typed
 into the shell. Your cursor might look like a rectangle, a line, or an
 underscore, but all cursors behave the same way. After typing something into
-the command line you can move the cursor back and forth with the left and right
+the command line, you can move the cursor back and forth with the left and right
 arrow keys, just like you would when typing an email.
 
 Don't you think your shell looks messy with all of those old prompts? Don't
@@ -52,7 +52,7 @@ echo 'Hello World!'
 
 We'll be using the above syntax for the rest of the book, where on one line there
 will be a command that I've entered into the command line, and then below that
-command the console output of the command will appear (if there is any
+command, the console output of the command will appear (if there is any
 console output). You can use `echo` to print any phrase surrounded by single
 quotes (`''`) to the console.
 
